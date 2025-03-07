@@ -7,9 +7,15 @@
 # 4. Terraform to create Azure resources 
  - [ ] KeyValut
  - [ ] AKS Cluster
- - [ ] SQL Database
- all secret should be stored in keyvault
+ - [ ] Azure SQL Database
+ - [ ] Azure App Inisghts
+ all secret like sql connection string should be stored in keyvault
 
 # 5. AKS deployment 
 
 # 6. CI/CD GitHub
+
+# Monitoring
+
+## Assumptions
+It should be possible to provision and destroy whole environemnt via CD/CI pipeline
